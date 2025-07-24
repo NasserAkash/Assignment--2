@@ -6,3 +6,12 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+
+.bg-bloom-plant{background-image: url(./assets/deal-bloom.png);
+background-repeat: no-repeat;
+;
+}
+
+
+.deal-zabo{background-image: url(./assets/deal-zabo.png);
+background-repeat: no-repeat;}
