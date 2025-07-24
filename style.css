@@ -11,7 +11,13 @@
 background-repeat: no-repeat;
 ;
 }
+.anna-plant{background-image: url(./assets/deal-ana.png);
+background-repeat: no-repeat;
+max-width: 300px;}
 
 
 .deal-zabo{background-image: url(./assets/deal-zabo.png);
-background-repeat: no-repeat;}
+background-repeat: no-repeat;
+max-width: 700px;}
+
+.news-letter-bg{background-image: url(./assets/news-letter-bg.png);}
