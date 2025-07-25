@@ -24,9 +24,9 @@
           <div><img src="./assets/logo.png" alt="" /></div>
 
           <ul class="flex items-center gap-5">
-            <li class="font-bold hidden sm:block"><button>Home</button></li>
-            <li class="font-normal text-[#8987A1] hidden sm:block">Shop</li>
-            <li class="font-normal text-[#8987A1] hidden sm:block">About Us</li>
+            <li class="font-bold hidden sm:block"><a href="">Home</a></li>
+            <li class="font-normal text-[#8987A1] hidden sm:block"><a href="">Shop</a></li>
+            <li class="font-normal text-[#8987A1] hidden sm:block"><a href="">About Us</a></li>
             <li><i class="fa-solid fa-cart-shopping"></i>Cart ($56)</li>
           </ul>
         </nav>
@@ -165,7 +165,7 @@
           <img class="" src="./assets/flower-store.png" />
           <div>
             <img
-              class="hidden md:block h-52 w-52 absolute -top-25 left-105"
+              class="hidden md:block h-52 w-52 absolute -top-25 left-105 animate-bounce"
               src="./assets/trusted-badge.png"
               alt=""
             />
@@ -197,7 +197,7 @@
       </section>
       <!-- discount offers -->
       <section class="container mx-auto">
-        <div class="text-center">
+        <div class="text-center my-10">
           <h1 class="noto-serif font-bold text-6xl">
             <span class="text-[#E95A08]">Latest</span> Deals
           </h1>
@@ -209,11 +209,11 @@
         </div>
         <!-- pic -->
         <div
-          class="flex flex-col md:flex-row gap-5 justify-around items-center "
+          class="flex flex-col md:flex-row gap-5 justify-around items-center"
         >
           <div class="flex flex-col my-5 gap-5 col-span-4">
             <div
-              class="bg-bloom-plant w-88  h-48 text-white text-center flex flex-col items-center justify-center rounded-xl"
+              class="bg-bloom-plant w-88 h-48 text-white text-center flex flex-col items-center justify-center rounded-xl"
             >
               <h3 class="noto-serif font-bold text-2xl">
                 60% Off | Bloom Plant
@@ -223,7 +223,7 @@
               </p>
             </div>
             <div
-              class="bg-bloom-plant w-88  h-48 text-white text-center flex flex-col items-center justify-center rounded-xl"
+              class="bg-bloom-plant w-88 h-48 text-white text-center flex flex-col items-center justify-center rounded-xl"
             >
               <h3 class="noto-serif font-bold text-2xl">
                 60% Off | Bloom Plant
@@ -234,7 +234,7 @@
             </div>
           </div>
           <!-- 3rd img -->
-           <div class="col-span-8 ">
+          <div class="col-span-8">
             <div
               class="deal-zabo h-60 md:h-96 w-88 md:w-[800px] text-white text-center flex flex-col items-center justify-center rounded-xl"
             >
@@ -248,9 +248,17 @@
       </section>
     </main>
     <!-- email form -->
-    <section>
+    <section class="news-letter-bg h-[270px] md:h-[600px] flex flex-col text-center bg-cover bg-center justify-center my-10">
+      <div class="flex flex-col items-center justify-center">
+        <h3 class="noto-serif font-bold text-3xl md:text-5xl text-white mb-5">Join the colorful Bunch</h3>
+      </div>
+      <div class="flex justify-center">
+        <div>
+        <input class=" inter bg-white text-base p-5 md:pr-150" type="email " name="" id="" placeholder="Write Email To US uwu" />
+      </div>
       <div>
-
+        <button class=" inter font-semibold bg-[#E95A08] p-5  text-white">Subscribe</button>
+      </div>
       </div>
     </section>
     <!-- footer -->
@@ -260,51 +268,51 @@
     >
       <div class="">
         <img src="./assets/logo.png" alt="" />
-        <p class="inter text-[22px]">
+        <p class="inter text-2xl">
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop.
         </p>
       </div>
       <div class="">
-        <ul>
-          <li>
+        <ul class="">
+          <li class="mb-5">
             <a href="">Home</a>
           </li>
-          <li>
+          <li class="mb-5">
             <a href="">About Us</a>
           </li>
-          <li>
+          <li class="mb-5">
             <a href="">Blog</a>
           </li>
-          <li>
+          <li class="mb-5">
             <a href="">FAQ</a>
           </li>
-          <li>
+          <li class="">
             <a href="">Contact Us</a>
           </li>
         </ul>
       </div>
       <div class="">
         <ul>
-          <li>
+          <li class="mb-5">
             <a href="">Features</a>
           </li>
-          <li>
+          <li class="mb-5">
             <a href="">Pricing</a>
           </li>
-          <li>
+          <li class="mb-5">
             <a href="">Privacy Policy</a>
           </li>
-          <li>
+          <li class="mb-5">
             <a href="">Terms of Service</a>
           </li>
-          <li>
+          <li class="mb-5">
             <a href="">Help Center</a>
           </li>
         </ul>
       </div>
       <div class="grid grid-cols-4 gap-10 items-start">
-        <img class="w-8 h-8" src="./assets/icon-linkedin.png" alt="" />
+        <a href=""><img class="w-8 h-8" src="./assets/icon-linkedin.png" alt="" /></a>
         <img class="w-8 h-8" src="./assets/icon-twitter.png" alt="" />
         <img class="w-8 h-8" src="./assets/icon-facebook.png" alt="" />
         <img class="w-8 h-8" src="./assets/icon-youtube.png" alt="" />
